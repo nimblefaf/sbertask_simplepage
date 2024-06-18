@@ -16,16 +16,8 @@ export default function RootLayout({ children }: Props) {
       <html lang="en">
         <body>
           <section className={styles.container}>
-            <Nav />
-
             <header className={styles.header}>
-              <Image
-                src="/logo.svg"
-                className={styles.logo}
-                alt="logo"
-                width={100}
-                height={100}
-              />
+              <Nav />
             </header>
 
             <main className={styles.main}>{children}</main>
