@@ -1,0 +1,21 @@
+.nav {
+    grid-area: nav;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 8px;
+    font-size: calc(10px + 2vmin);
+  }
+
+  .link {
+    color: #3a8350;
+  }
+
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+  .link.active {
+    text-decoration: underline;
+  }

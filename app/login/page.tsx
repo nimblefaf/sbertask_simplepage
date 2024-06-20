@@ -5,7 +5,6 @@ import { useDispatch, useSelector } from 'react-redux';
 import { RootState } from '../../lib/store';
 import { login } from '../../lib/features/auth/authSlice'
 import { useRouter } from 'next/navigation';
-// import '../../styles/login.scss';
 
 const LoginPage: React.FC = () => {
   const [username, setUsername] = useState('');

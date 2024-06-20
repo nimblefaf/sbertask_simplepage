@@ -1,0 +1,33 @@
+@import '../styles/variables.scss';
+
+.catalog {
+    display: grid;
+    margin-bottom: 100px;
+    gap: 32px 32px;
+    grid-template-columns: repeat(2, 2fr);
+}
+
+.movieCard {
+    display: flex;
+    flex-direction: row;
+    margin: 25px;
+    background-color: $primary;
+    gap: 10px;
+
+    &:hover{
+        background-color: $primary-hover;
+    }
+}
+
+.poster {
+    max-width: 200px;
+    max-height: 300px;
+}
+
+.descr {
+    margin: 10px;
+}
+
+.movieName {
+    font-size: 32px;
+}
